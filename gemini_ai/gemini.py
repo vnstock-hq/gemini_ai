@@ -41,7 +41,7 @@ class GeminiAI:
         response (Response): The response object from the model.
     """
 
-    def __init__(self, api_key: str, gemini_model: str = 'gemini-1.5-flash-latest'):
+    def __init__(self, api_key: str, gemini_model: str = 'gemini-1.5-flash'):
         """
         Initialize GeminiAI with an API key and model name.
 
