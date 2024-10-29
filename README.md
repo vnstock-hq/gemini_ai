@@ -160,7 +160,7 @@ python3.10 -m pytest --cov=gemini --cov-report=term-missing
 Here’s a complete example demonstrating the initialization, configuration, chat session setup, and file upload:
 
 ```python
-from gemini.gemini import GeminiAI
+from gemini_ai.gemini import GeminiAI
 
 # Initialize the AI with your API key
 gemini = GeminiAI(api_key="YOUR_API_KEY")
